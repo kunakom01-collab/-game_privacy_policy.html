@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Neon Pop</title>
+    <meta name="description" content="Privacy Policy for Neon Pop (NEON POP: Bubble Odyssey) mobile game on Google Play.">
+    <style>
+        :root {
+            --bg-color: #0f121d;
+            --surface-color: #161b2c;
+            --surface-accent: #1e263d;
+            --text-primary: #e6edf3;
+            --text-secondary: #9aa7b9;
+            --accent-cyan: #00f5d4;
+            --accent-purple: #7b2cbf;
+            --accent-pink: #f72585;
+            --border-color: #2b3652;
+            --link-color: #00f5d4;
+            --table-header: #212c47;
+            --tag-bg: rgba(0, 245, 212, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--text-primary);
+            background-color: var(--bg-color);
+            padding: 0 1rem;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 2.5rem auto 4rem;
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--tag-bg);
+            color: var(--accent-cyan);
+            font-weight: 600;
+            font-size: 0.82rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+            border: 1px solid rgba(0, 245, 212, 0.3);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .app-meta {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .app-meta span strong {
+            color: var(--text-primary);
+        }
+
+        .actions {
+            margin-top: 1.25rem;
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .btn {
+            background-color: var(--surface-accent);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        .toc {
+            background: var(--surface-accent);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin: 2rem 0;
+            border: 1px solid var(--border-color);
+        }
+
+        .toc h3 {
+            font-size: 1.05rem;
+            margin-bottom: 0.75rem;
+            color: var(--accent-cyan);
+        }
+
+        .toc ol {
+            padding-left: 1.25rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 0.4rem 1.5rem;
+        }
+
+        .toc a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.92rem;
+        }
+
+        .toc a:hover {
+            color: var(--accent-cyan);
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 2.5rem 0;
+            padding-top: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.45rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--accent-cyan);
+            margin: 1.4rem 0 0.5rem;
+        }
+
+        p, ul, ol {
+            color: var(--text-primary);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        ul, ol {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.45rem;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .highlight-box {
+            background: rgba(0, 245, 212, 0.06);
+            border-left: 4px solid var(--accent-cyan);
+            border-radius: 0 10px 10px 0;
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.92rem;
+            background-color: var(--surface-accent);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        th {
+            background-color: var(--table-header);
+            color: var(--accent-cyan);
+            font-weight: 600;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding-top: 2rem;
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 1.5rem 1.25rem;
+                margin: 1rem auto;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .app-meta {
+                flex-direction: column;
+                gap: 0.4rem;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+                color: #000000;
+            }
+            .container {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+                margin: 0;
+                max-width: 100%;
+                background: #ffffff;
+            }
+            .btn, .toc {
+                display: none;
+            }
+            a {
+                color: #000000;
+                text-decoration: underline;
+            }
+            th {
+                background: #f0f0f0;
+                color: #000000;
+            }
+            .highlight-box {
+                background: #f8f8f8;
+                border-left-color: #333333;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">Google Play Compliance</span>
+        <h1>Privacy Policy</h1>
+        <div class="app-meta">
+            <span>Application: <strong>Neon Pop (NEON POP: Bubble Odyssey)</strong></span>
+            <span>Package Name: <strong>com.aistudio.neonpop.kxmpzq</strong></span>
+            <span>Last Updated: <strong>October 24, 2026</strong></span>
+            <span>Developer Contact: <strong>kunakom01@gmail.com</strong></span>
+        </div>
+        <div class="actions">
+            <button class="btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+            <a class="btn" href="mailto:kunakom01@gmail.com">✉️ Contact Developer</a>
+        </div>
+    </header>
+
+    <div class="highlight-box">
+        <p><strong>Summary for Players:</strong> Neon Pop is a casual arcade bubble-shooter game. We do <strong>not</strong> require user registration or accounts, and we do <strong>not</strong> collect your personal name, address, phone number, or contacts. Game progress is saved strictly on your local device. We use <strong>Google AdMob</strong> to display optional Rewarded Video advertisements when you choose to watch them to earn in-game bonuses.</p>
+    </div>
+
+    <nav class="toc">
+        <h3>Table of Contents</h3>
+        <ol>
+            <li><a href="#section-1">1. Introduction & Overview</a></li>
+            <li><a href="#section-2">2. Information We Collect</a></li>
+            <li><a href="#section-3">3. How Information Is Used</a></li>
+            <li><a href="#section-4">4. Advertising & Google AdMob</a></li>
+            <li><a href="#section-5">5. Third-Party Services & SDKs</a></li>
+            <li><a href="#section-6">6. Google Play Data Safety Reference</a></li>
+            <li><a href="#section-7">7. Data Storage, Security & Retention</a></li>
+            <li><a href="#section-8">8. Children's Privacy (COPPA)</a></li>
+            <li><a href="#section-9">9. User Rights & Opting Out</a></li>
+            <li><a href="#section-10">10. Policy Updates</a></li>
+            <li><a href="#section-11">11. Contact Information</a></li>
+        </ol>
+    </nav>
+
+    <!-- Section 1 -->
+    <section id="section-1">
+        <h2>1. Introduction & Overview</h2>
+        <p>This Privacy Policy applies to the mobile game application <strong>Neon Pop</strong> (also referred to as <strong>NEON POP: Bubble Odyssey</strong>, package identifier: <code>com.aistudio.neonpop.kxmpzq</code>), developed and published by the developer (contact: <strong>kunakom01@gmail.com</strong>), available on the Google Play Store.</p>
+        <p>Your privacy is important to us. This policy describes how data is handled when you download, install, and play Neon Pop, including our practices regarding third-party advertising services.</p>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section-2">
+        <h2>2. Information We Collect</h2>
+        
+        <h3>A. Information Stored Locally On Your Device</h3>
+        <p>Neon Pop operates primarily as a client-side game. The following data is generated and stored locally in your device's private app storage (Android SharedPreferences) and is <strong>never uploaded to our own external servers</strong>:</p>
+        <ul>
+            <li><strong>Game Progress & Stats:</strong> Unlocked Odyssey levels, high scores, stars, accuracy, shots fired, pop streaks, and total bubbles popped.</li>
+            <li><strong>In-Game Economy:</strong> Neon coin balance and unlocked cosmetics (bubble trail skins, theme palettes).</li>
+            <li><strong>Player Preferences:</strong> Audio volume settings (SFX & music), mute toggle, trajectory guide preference, colorblind symbols toggle, and reduced motion/flash accessibility options.</li>
+            <li><strong>Ad Configuration Preferences:</strong> Diagnostic test mode settings and custom ad unit IDs entered in developer settings.</li>
+        </ul>
+
+        <h3>B. Information Collected Automatically by Third-Party SDKs</h3>
+        <p>When you play the game and interact with advertisements, third-party libraries (specifically Google Mobile Ads / AdMob and Google Play Services) may automatically collect certain device and technical information, including:</p>
+        <ul>
+            <li><strong>Device Identifiers:</strong> Google Advertising ID (AAID), Android OS version, device model, hardware specifications, and screen resolution.</li>
+            <li><strong>Network & General Location:</strong> IP address (used to infer general coarse geographic location such as country or city for localized ad delivery), carrier name, and connection type (Wi-Fi/Cellular).</li>
+            <li><strong>Ad Interaction Data:</strong> Ad views, clicks, video completions, reward verification callbacks, and ad performance metrics.</li>
+            <li><strong>Diagnostics & Crash Logs:</strong> Performance data, application responsiveness, and error logs collected to maintain system stability and prevent fraud.</li>
+        </ul>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="section-3">
+        <h2>3. How Information Is Used</h2>
+        <p>The information collected is used exclusively for the following legitimate purposes:</p>
+        <ul>
+            <li><strong>Core Gameplay Functionality:</strong> Storing your progress, highest unlocked levels, high scores, and audio preferences between game sessions.</li>
+            <li><strong>Rewarding Ad Views:</strong> Delivering rewarded video ads when you explicitly opt in (e.g., opening Mystery Crates, claiming Extra Shots, or continuing a level) and validating the reward upon completion.</li>
+            <li><strong>Ad Serving & Analytics:</strong> Allowing Google AdMob to deliver relevant ads, limit the frequency of the same ad, prevent click fraud, and monitor ad revenue.</li>
+            <li><strong>App Performance & Stability:</strong> Identifying technical issues, resolving bugs, and ensuring compatibility across various Android device configurations.</li>
+        </ul>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="section-4">
+        <h2>4. Advertising & Google AdMob</h2>
+        <p>Neon Pop integrates <strong>Google AdMob</strong>, an advertising service provided by Google LLC, to display rewarded video advertisements. We adhere strictly to the <strong>Google Play Developer Program Policies</strong> and <strong>AdMob Policy Guidelines</strong>:</p>
+        <ul>
+            <li><strong>User Choice & Opt-In:</strong> Rewarded ads are never shown without your explicit interaction. You must deliberately tap a button (such as "Watch Ad for Extra Shots" or "Mystery Crate") to initiate an ad.</li>
+            <li><strong>Guaranteed Reward Delivery:</strong> When an ad finishes playing (or if the ad network has no inventory in test environments), you immediately receive your specified in-game bonus.</li>
+            <li><strong>AdMob Advertising ID (AAID):</strong> Google AdMob utilizes the Google Advertising ID assigned to your Android device to serve personalized or contextual advertisements and to detect invalid traffic.</li>
+        </ul>
+        <p>You can learn more about how Google uses information from sites or apps that use its services by visiting <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google's Partner Technologies Policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Policies</a>.</p>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="section-5">
+        <h2>5. Third-Party Services & SDKs</h2>
+        <p>The app relies on the following trusted third-party providers. Each provider operates under its own privacy policy:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service Provider</th>
+                    <th>Purpose</th>
+                    <th>Data Accessed</th>
+                    <th>Privacy Policy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Google AdMob</strong><br>(Google LLC)</td>
+                    <td>Serving rewarded video ads, ad mediation, and revenue generation.</td>
+                    <td>Advertising ID (AAID), device specs, IP address, ad view/click interactions.</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Google Play Services</strong><br>(Google LLC)</td>
+                    <td>Core system APIs, security, and distribution on Android devices.</td>
+                    <td>Device diagnostics, GMS version, hardware info.</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 6 -->
+    <section id="section-6">
+        <h2>6. Google Play Data Safety Reference</h2>
+        <p>When reviewing the <strong>Data Safety</strong> section for <strong>Neon Pop</strong> on the Google Play Console, the following declarations apply:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data Category</th>
+                    <th>Data Type</th>
+                    <th>Collected?</th>
+                    <th>Shared?</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Location</strong></td>
+                    <td>Approximate Location</td>
+                    <td>Yes (by AdMob)</td>
+                    <td>Yes (by AdMob)</td>
+                    <td>Advertising & Fraud Prevention</td>
+                </tr>
+                <tr>
+                    <td><strong>Device or Other IDs</strong></td>
+                    <td>Device or other IDs (e.g., Advertising ID)</td>
+                    <td>Yes (by AdMob)</td>
+                    <td>Yes (by AdMob)</td>
+                    <td>Third-party advertising & Analytics</td>
+                </tr>
+                <tr>
+                    <td><strong>App Info & Performance</strong></td>
+                    <td>Diagnostics & Crash Logs</td>
+                    <td>Yes (by Google Play Services)</td>
+                    <td>No</td>
+                    <td>App Functionality & Performance</td>
+                </tr>
+                <tr>
+                    <td><strong>Personal Info</strong></td>
+                    <td>Name, Email, Address, Phone</td>
+                    <td><strong>No</strong></td>
+                    <td><strong>No</strong></td>
+                    <td>Not collected by this app</td>
+                </tr>
+                <tr>
+                    <td><strong>Financial Info</strong></td>
+                    <td>Credit Card, Bank details</td>
+                    <td><strong>No</strong></td>
+                    <td><strong>No</strong></td>
+                    <td>Not collected by this app</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li><strong>Data Encryption:</strong> All data transmitted by third-party SDKs (AdMob / Google Play) is encrypted in transit using modern HTTPS/TLS protocols.</li>
+            <li><strong>Data Deletion:</strong> Because no user account or personal records are held on developer servers, players can delete all local data at any time by clearing the app data or uninstalling the app.</li>
+        </ul>
+    </section>
+
+    <!-- Section 7 -->
+    <section id="section-7">
+        <h2>7. Data Storage, Security & Retention</h2>
+        <ul>
+            <li><strong>No Centralized Account Database:</strong> Neon Pop does not maintain a remote database containing personal player profiles or identity records.</li>
+            <li><strong>Local Storage:</strong> All game data is stored in the app's sandboxed local storage directory on your Android device. It is inaccessible to other non-privileged applications.</li>
+            <li><strong>Retention:</strong> Local game save data remains on your device until you uninstall Neon Pop or clear app data via <code>Settings &gt; Apps &gt; Neon Pop &gt; Storage &gt; Clear Data</code>. Data processed by Google AdMob is retained in accordance with Google's published data retention schedules.</li>
+        </ul>
+    </section>
+
+    <!-- Section 8 -->
+    <section id="section-8">
+        <h2>8. Children's Privacy (COPPA & Google Play Families Policy)</h2>
+        <p>Neon Pop is designed as a family-friendly casual arcade puzzle game suitable for general audiences:</p>
+        <ul>
+            <li>We do <strong>not</strong> knowingly collect or solicit personal identifiable information from children under the age of 13 (or under the applicable age of consent in your jurisdiction) in violation of the Children's Online Privacy Protection Act (COPPA) or General Data Protection Regulation (GDPR).</li>
+            <li>If you are a parent or legal guardian and believe that your child has provided personal information to us without your consent, please contact us at <a href="mailto:kunakom01@gmail.com">kunakom01@gmail.com</a> so we can take immediate corrective measures.</li>
+            <li>AdMob ad requests in our codebase are configured to adhere to Google Play's family-safe ad guidelines and avoid inappropriate advertising categories.</li>
+        </ul>
+    </section>
+
+    <!-- Section 9 -->
+    <section id="section-9">
+        <h2>9. User Rights & Opting Out of Targeted Advertising</h2>
+        <p>You have full control over advertising identifiers and tracking preferences on your Android device. You can adjust your preferences at any time:</p>
+        
+        <h3>How to Reset or Delete Your Advertising ID on Android:</h3>
+        <ol>
+            <li>Open the <strong>Settings</strong> app on your Android device.</li>
+            <li>Scroll down and tap <strong>Google</strong> (or <strong>Privacy &gt; Google</strong>).</li>
+            <li>Tap <strong>Ads</strong> (or <strong>Ad Privacy</strong>).</li>
+            <li>Tap <strong>Delete advertising ID</strong> (or <strong>Reset advertising ID</strong>). Once deleted, apps cannot use your Advertising ID to build interest-based profiles.</li>
+        </ol>
+
+        <h3>European Economic Area (EEA) & UK (GDPR) Rights:</h3>
+        <p>If you reside in the EEA or UK, you have rights regarding access, rectification, portability, and erasure of personal data under the General Data Protection Regulation. Since we do not retain identifiable personal records on our own servers, you can exercise these rights directly on your device by clearing app storage, or through Google's privacy dashboard for ad-related data.</p>
+
+        <h3>California Consumer Privacy Act (CCPA / CPRA) Notice:</h3>
+        <p>We do not sell personal information as defined by California law. Third-party advertising partners may collect device identifiers as described in Section 2. You may exercise your right to opt out of interest-based ad sharing using the Android device settings described above.</p>
+    </section>
+
+    <!-- Section 10 -->
+    <section id="section-10">
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our legal obligations, app features, or advertising integrations. Any modifications will be posted to this page with an updated "Last Updated" date at the top. We encourage you to review this policy periodically.</p>
+    </section>
+
+    <!-- Section 11 -->
+    <section id="section-11">
+        <h2>11. Contact Information</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the data practices of <strong>Neon Pop</strong>, please contact the developer directly:</p>
+        <div class="highlight-box">
+            <p><strong>Developer:</strong> kunakom01<br>
+            <strong>Application:</strong> Neon Pop (NEON POP: Bubble Odyssey)<br>
+            <strong>Email:</strong> <a href="mailto:kunakom01@gmail.com">kunakom01@gmail.com</a><br>
+            <strong>Package Name:</strong> com.aistudio.neonpop.kxmpzq</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Neon Pop. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">This privacy policy is formatted for Google Play Store Developer Console requirements.</p>
+    </footer>
+</div>
+
+</body>
+</html>
